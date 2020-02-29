@@ -7,18 +7,59 @@
 
 <style>
 #main {
-    background-color: #ADD1D5;
+    background-color: #251605
 }
-header {
-    background-color: #DACC3E;
+#title {
+    background-color: #E0D561;
     text-align: center;
     padding: 20px
 }
+#topnav {
+    overflow: hidden;
+    background-color:#251605;
+    padding:20px;
+}
+.column {
+    float: left;
+    padding: 10px;
+}
+.colomn.side {
+    width: 25%;
+}
+.column.middle {
+    width: 50%;
+    background-color:#E0D561;
+}
+.row:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
 </style>
 
 <body id="main">
 
-    <header>In this small tribute page we celebrate the world famous Cornish Pasty and all it has to offer</header>
+    <div id="title"><h1>Tribute to the humble Cornish Pasty.</h1>
+    <p>In this section I say something brief but profound about pasties.</p></div>
+
+<div class="row">
+    <div class="column side">
+        <h2>Side</h2>
+        <p>testing just testing one two three</p>
+    </div>
+
+    <div class="column middle">
+        <h2>Things of Importance</h2>
+        <p>pasties and that a lot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+        <p>more pasty content Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    </div>
+
+    <div class="column side">
+        <h2>Side 2</h2>
+        <p>words and things.</p>
+    </div>
+</div>
 
 </body>
 
