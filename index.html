@@ -42,19 +42,26 @@ body {
     display: table;
     clear: both;
 }
-.img-div {
+#img {
     border-radius:50%;
 }
 .main-title {
     text-align:center;
     text-decoration:underline;
 }
+#image-caption {
 
+}
+.thin-black-border {
+    border-color: black;
+    border-width: 5px;
+    border-style: dotted;
+}
 </style>
 
 <body id="main">
 
-    <div id="title"><h1>Tribute to the humble Cornish Pasty.</h1>
+    <div id="title" class="thin-black-border"><h1 style="text-decoration: underline;">Tribute to the humble Cornish Pasty.</h1>
     <p>In this section I say something brief but profound about pasties.</p></div>
 
 <div class="row">
@@ -68,8 +75,9 @@ body {
         <p>pasties and that a lot Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
         <p>more pasty content Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
 
-<div><center>
-    <img class="img-div" src="https://www.gourmandize.com/media/trad-pastie-green-salad_crop.jpg/rh/cornish-pasties.jpg" alt="a steaming pasty">
+<div id="img-div"><center>
+    <img id="img" src="https://www.gourmandize.com/media/trad-pastie-green-salad_crop.jpg/rh/cornish-pasties.jpg" alt="a steaming pasty">
+    <div id="img-caption" style="font-size: small; font-style: italic">A traditional Cornish Pasty, untraditionally served alongside chips and salad.</div>
     </center>
 </div>
 
